@@ -1,23 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
+return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <form>
+        <input type='search' placeholder='Enter country name'className='textUp'/>
+        <input type='submit' placeholder='SUBMIT'/>
+      </form>
+        <p>Lagos, Nigeria NGN</p>
+      <ul>
+        <li>TimeZone: GMT-West African</li>
+        <li>Description: Heavy Rain</li>
+        <li>Wind: 234deg</li>
+      </ul>
+      <h3>43°</h3>
+      <div className='LastFace'>
+        <ul>
+          <li>Humidity: 210</li>
+          <li>Wind: 39</li>
+          <li>Prescipation: Snowy</li>
+          <li>Temperature: 10</li>
+        </ul>
+      </div>
     </div>
   );
 }
