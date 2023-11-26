@@ -11,7 +11,7 @@ return (
       <ul>
         <li>TimeZone: GMT-West African</li>
         <li>Description: Heavy Rain</li>
-        <li>Wind: 234deg</li>
+        <li>Wind: 235deg</li>
       </ul>
       <h3>43°</h3>
       <div className='LastFace'>
